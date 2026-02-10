@@ -17,31 +17,39 @@
                 <a target="_blank" href="info.html">Info</a>
             
         </nav>
+       <div>
+         <p class="p1">Welcome to our productivity manager!  </p>
+       </div>
     </header>
-    <aside>
+
+    <aside class="productivity">
          <div>
-            <p>Welcome to our productivity manager!  </p>
+           
         </div>
+        <br>
         <div>
-            <label for="task-desc">Task Description:</label>
+            <label for="task-desc">Task Description:</label> <br>
             <input type="text" id="task-desc" name="task-desc" placeholder="Enter task description">
         </div>
+        <br>
        <div>
-         <label for="category">Category:</label>
+         <label for="category">Category:</label> <br>
         <select name="category" id="category">
             <option value="work">Work 👷</option>
             <option value="personal">Personal🏠</option>
             <option value="education">Education📚</option>
         </select>
        </div>
+       <br>
        <div>
-        <label for="priority">Priority:</label>
+        <label for="priority">Priority:</label> <br>
         <select name="priority" id="priority">
             <option value="high">High🔴</option>
             <option value="medium">Medium🟡</option>
             <option value="low">Low🟢</option>
         </select>
        </div>
+       <br>
 
        <button id="add-task-btn" onclick=" ">Add Task</button>
             
@@ -54,7 +62,8 @@
     </aside>
 
       <main></main>
-    <footer>
+      
+    <footer class="footer">
         <p>Copyright &copy; 2024 Productivity Manager. All rights reserved.</p>
     </footer> 
 </body>
