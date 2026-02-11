@@ -48,3 +48,17 @@
     padding: 10px 20px;
     cursor: pointer;
 }
+
+.div1:hover{
+    padding: 10px;
+    border: solid #E2E8F0;  
+    border-radius: 2px;
+    margin: 20px;
+}
+.butn:hover {
+    background-color: #1E293B;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

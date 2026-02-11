@@ -1,22 +1,22 @@
-# PROJECT NAME
+# PROJECT NAME  
 PRODUCTIVITY MANAGER
 
-## project by 
+## Project by  
 Joshua Barack
 
-## Description
+## Description  
+Productivity Manager is a simple and interactive web application designed to help users organize, track, and manage their tasks efficiently. Users can add tasks, categorize them, set priorities, mark tasks as completed, and see dynamic statistics. The app also includes a newsletter subscription feature and stores data locally in the browser using `localStorage`.
 
-## Technologies used
-1. HTML
-2. CSS
-3. JAVASCRIPT
+## Technologies Used  
+1. HTML5  
+2. CSS 
+3. JavaScript 
+## Setup Instructions  
+1. Clone or download the project repository.  
 
-## Setup instructions
+## Contact Information  
+Email: joshuabarack09@gmail.com  
+Phone: 07940504992  
 
-## Contact information
- Email : joshuabarack09@gmail.com
- Phone.NO : 07940504992
-
- ## LICENCE AND COPYRIGHT INFORMATION
- @2026 ALL RIGHTS RESERVED
-
+## License and Copyright Information  
+© 2026 Joshua Barack. All rights reserved.

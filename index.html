@@ -12,9 +12,9 @@
         <nav>
             
         
-                <a target="_blank" href= "index.html">Home </a>
-                <a target="_blank" href="about.html">About</a>
-                <a target="_blank" href="info.html">Info</a>
+                <a  href= "index.html">Home </a>
+                <a  href="about.html">About</a>
+                <a  href="info.html">Info</a>
             
         </nav>
        <div>
@@ -27,12 +27,12 @@
            
         </div>
         <br>
-        <div>
+        <div class="div1">
             <label for="task-desc">Task Description:</label> <br>
             <input type="text" id="task-desc" name="task-desc" placeholder="Enter task description">
         </div>
         <br>
-       <div>
+       <div class="div1">
          <label for="category">Category:</label> <br>
         <select name="category" id="category">
             <option value="work">Work 👷</option>
@@ -41,7 +41,7 @@
         </select>
        </div>
        <br>
-       <div>
+       <div class="div1">
         <label for="priority">Priority:</label> <br>
         <select name="priority" id="priority">
             <option value="high">High🔴</option>
@@ -51,20 +51,18 @@
        </div>
        <br>
 
-       <button id="add-task-btn" onclick=" ">Add Task</button>
-            
-        <form action=""></form>
+       <button class="butn" id="add-task-btn" onclick=" ">Add Task</button>
+         
     </aside>
-       
-  <div style="margin-top: 20px; border-top: 1px solid #e2e8f0; padding-top: 15px; font-size: 0.9rem;">
-            <p>Pending Tasks: <strong id="count-pending" style="color: var(--primary);">0</strong></p>
-        </div>
-    </aside>
-
-      <main></main>
+       <section class="task-display">
+        <h2>Your Tasks</h2>
+        <p>Pending Tasks: <strong id="count-pending">0</strong></p>
+        <div id="task-list"></div>
+    </section>
+ 
       
     <footer class="footer">
-        <p>Copyright &copy; 2024 Productivity Manager. All rights reserved.</p>
+       <p>© 2026 Productivity Manager</p>
     </footer> 
 </body>
 </html>
