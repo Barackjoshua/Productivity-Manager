@@ -2,53 +2,53 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Info - Productivity Manager</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFO</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="info">
-    <header class="infohead">
-        INFO PAGE & CONTACT DETAILS
-        
-                <a  href= "index.html">Home </a>
-                <a  href="about.html">About</a>
-                <a  href="info.html">Info</a>
-            
-    </header>
-    <main>
-        <div>
-        <p>For more information about our productivity manager, please contact us at:</p>
+<body>
+
+<header>
+    <h1>Contact & Newsletter</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="info.html">Info</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="task-display">
+        <h2>Contact Information</h2>
         <p>Email: joshuabarack09@gmail.com</p>
         <p>Phone: 07940504992</p>
+    </section>
+
+    <section class="task-form">
+        <h2>Subscribe to Newsletter</h2>
+
+        <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" id="subscribe-email" placeholder="example@email.com">
+            <small class="error" id="email-error"></small>
         </div>
-        
-        <div>
-        <p>
-            Thank you for choosing our productivity manager. We look forward to helping you achieve your goals and maximize your productivity!
-        </p>
-        </div>
-        <div>
-            <p>
-                To recieve updates and news about our productivity manager, you can subscribe to our newsletter by providing your email address on our website. We will keep you informed about new features, tips, and productivity hacks to help you make the most out of our tool
-            </p>
-        </div>
-        <div>
-            <form action="">
-               <div>
-                 <label for="email">Subscribe to our newsletter:</label> <br>
-                <input type="email" id="email" name="email" placeholder="info@example.com">
-               </div>
-                <div>
-                    <label for="tel">Phone Number:</label> <br>
-                <input type="tel" id="tel" name="tel" placeholder="Enter your phone number:07940504992">
-                </div> <br>
-                <button class="infobutt" type="submit">Subscribe</button>
-            </form>
-        </div>
-    </main>
-    <hr> 
-    <footer>
-        <p>© 2026 Productivity Manager</p>
-    </footer> 
+
+        <button id="subscribe-btn">Subscribe</button>
+
+        <p>Total Subscribers: <strong id="subscriber-count">0</strong></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Productivity Manager</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
+
+
+
+
