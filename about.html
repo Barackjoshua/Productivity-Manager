@@ -1,39 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABOUT</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-        <h2>ABOUT</h2>
-        
-                <a  href= "index.html">Home </a>
-                <a  href="about.html">About</a>
-                <a  href="info.html">Info</a>
-            
-    </header>
-    <main>
-        <div>
-            <p>Welcome to our productivity manager! We are dedicated to helping you stay organized, manage your tasks efficiently, and boost your productivity. Our tool is designed to cater to the needs of students, professionals, and anyone looking to improve their time management skills.</p>
-        </div>
-        <div>
-            <p>Our productivity manager offers a range of features to help you stay on top of your tasks and goals. You can create and manage to-do lists, set reminders, track your progress, and prioritize your tasks effectively. With our user-friendly interface, you can easily navigate through the different sections and customize your experience according to your preferences.</p>
-        </div>
-        <div>
-            <p>We understand that everyone has different productivity needs, which is why we have designed our tool to be flexible and adaptable. Whether you're a student juggling multiple assignments or a professional managing various projects, our productivity manager can help you stay organized and focused on what matters most.</p>
-        </div>
-        <div>
-            <p>Our team is committed to providing you with the best experience possible. We value your feedback and suggestions, so please don't hesitate to reach out to us with any questions or ideas you may have. We are constantly working on improving our tool and adding new features based on user feedback.</p>
-        </div>
-        <div>
-            <p>Thank you for choosing our productivity manager. We look forward to helping you achieve your goals and maximize your productivity!</p>
-        </div>
-    </main>
-    <footer>
-      <p>© 2026 Productivity Manager</p>
-    </footer>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <title>About - Productivity Manager</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>About </h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="info.html">Info</a>
+    </nav>
+</header>
+
+<main class="container">
+
+    <section class="task-display">
+        <h2>Project Overview</h2>
+        <p>
+            Productivity Manager is a simple web application that allows users
+            to create, organize, and manage tasks efficiently.
+            It stores data using browser localStorage.
+        </p>
+    </section>
+
+    <section class="task-display">
+        <h2>Your Task Statistics</h2>
+        <p>Total Tasks: <strong id="total-tasks">0</strong></p>
+        <p>Completed Tasks: <strong id="completed-tasks">0</strong></p>
+        <p>Pending Tasks: <strong id="pending-tasks">0</strong></p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Productivity Manager</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
+
