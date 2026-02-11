@@ -34,3 +34,17 @@
     border-radius: 2px;
     margin: 20px;
 }
+.infohead {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #E2E8F0;
+    text-decoration-line: underline;
+}
+.infobutt:hover {
+    background-color: #1E293B;
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
