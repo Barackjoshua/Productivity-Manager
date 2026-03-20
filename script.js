@@ -94,7 +94,7 @@ function deleteTask(index) {
 
 renderTasks();
 
-// ABOUT PAGE STATS
+// ABOUT PAGE 
 const totalTasksEl = document.getElementById("total-tasks");
 const completedTasksEl = document.getElementById("completed-tasks");
 const pendingTasksEl = document.getElementById("pending-tasks");
